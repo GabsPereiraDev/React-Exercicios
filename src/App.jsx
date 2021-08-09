@@ -4,11 +4,13 @@ import Primeiro from './components/basicos/Primeiro';
 import ComParametros from './components/basicos/ComParametros';
 import Fragmentos from './components/Fragmentos';
 import Card from './components/layout/Card';
-import Res from './components/ex1/NumeroAleator'
-import Familia from './components/basicos/Familia'
-import FamiliaMembro from './components/basicos/FamiliaMembro'
-import ListaAluno from './components/repetição/ListaAluno'
-import ListaProduto from './components/repetição/TabelaPreco'
+import Res from './components/ex1/NumeroAleator';
+import Familia from './components/basicos/Familia';
+import FamiliaMembro from './components/basicos/FamiliaMembro';
+import ListaAluno from './components/repetição/ListaAluno';
+import ListaProduto from './components/repetição/TabelaPreco';
+import ParOuImpar from './components/condicional/ParOuImpar';
+import UsuarioInfo from './components/condicional/UsuarioInfo';
 import './App.css'
 
 export default _ => {
@@ -19,6 +21,14 @@ export default _ => {
 
       <div className='Card'>
 
+
+        <Card titulo="#08 Par Ou Impar" color="#982395">
+
+          <ParOuImpar />
+          <UsuarioInfo usuario={{ nome: 'Gabriel' }} />
+          <UsuarioInfo usuario={{ email: 'gabriel@hotmail.com' }} />
+
+        </Card>
 
         <Card titulo="#07 Desafio Lista" color="#ff65">
 
