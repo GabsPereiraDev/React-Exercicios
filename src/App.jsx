@@ -11,6 +11,7 @@ import ListaAluno from './components/repetição/ListaAluno';
 import ListaProduto from './components/repetição/TabelaPreco';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
+import DiretaPai from './components/comunicação/DiretaPai';
 import './App.css'
 
 export default _ => {
@@ -21,6 +22,10 @@ export default _ => {
 
       <div className='Card'>
 
+
+        <Card titulo="#08 Par Ou Impar" color="#9275">
+      <DiretaPai/>
+        </Card>
 
         <Card titulo="#08 Par Ou Impar" color="#982395">
 
